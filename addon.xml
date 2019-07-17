@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.ROFpodcast" name="Ring of Fire" version="1.1.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en">Ring of Fire audio podcast addon</summary>
+    <description lang="en">The Ring of Fire started as a weekly syndicated radio show in 2004 for the purpose of exposing Wall Street thugs, environmental criminality, corporate media failure, and political backstories rarely found in the mainstream media.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/RingofFirepodcast.git</source>
+    <website>https://trofire.com/</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.jpeg</icon>
+			<fanart>resources/media/fanart.png</fanart>
+			<screenshot>resources/media/screen1.png</screenshot>
+			<screenshot>resources/media/screen2.jpeg</screenshot>
+			<screenshot>resources/media/icon.jpeg</screenshot>
+		</assets>
+  </extension>
+</addon>
