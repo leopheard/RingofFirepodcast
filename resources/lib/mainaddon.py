@@ -31,8 +31,8 @@ def get_playable_podcast(soup):
             title = content.find('title')
             title = title.get_text()
 
-            desc = content.find('itunes:subtitle')
-            desc = desc.get_text()
+#            desc = content.find('itunes:subtitle')
+#            desc = desc.get_text()
 
             thumbnail = content.find('itunes:image')
             thumbnail = thumbnail.get('href')
@@ -43,7 +43,7 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'desc': desc,
+#                'desc': desc,
                 'thumbnail': thumbnail,
         }
         
@@ -62,7 +62,7 @@ def compile_playable_podcast(playable_podcast):
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-            'info': podcast['desc'],
+#            'info': podcast['desc'],
             'is_playable': True,
     })
 
@@ -85,8 +85,8 @@ def get_playable_podcast1(soup):
             title = content.find('title')
             title = title.get_text()
 
-            desc = content.find('itunes:subtitle')
-            desc = desc.get_text()
+#            desc = content.find('itunes:subtitle')
+#            desc = desc.get_text()
             
             thumbnail = content.find('itunes:image')
             thumbnail = thumbnail.get('href')
@@ -97,7 +97,7 @@ def get_playable_podcast1(soup):
         item = {
                 'url': link,
                 'title': title,
-                'desc': desc,
+#                'desc': desc,
                 'thumbnail': thumbnail
         }
         
@@ -116,7 +116,7 @@ def compile_playable_podcast1(playable_podcast1):
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-            'info': podcast['desc'],
+#            'info': podcast['desc'],
             'is_playable': True,
     })
 
