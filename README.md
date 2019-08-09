@@ -9,4 +9,4 @@ The <a href="https://trofire.com/">Ring of Fire</a> started as a weekly syndicat
 
 <a href="https://trofire.com">TheRingofFire.com</a><br>
 
-<a href="https://www.trofire.com"><img src="https://s3.amazonaws.com/fansfm_production/1afcee00-2cac-0137-7a39-0f16ad195fd9.jpg">
+<a href="https://www.trofire.com"><img src="https://s3.amazonaws.com/fansfm_production/1afcee00-2cac-0137-7a39-0f16ad195fd9.jpg"><br><a href="http://www.kodi.tv"><img src="https://kodi.tv/sites/default/files/page/field_image/about--devices.jpg">
